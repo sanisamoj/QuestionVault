@@ -9,3 +9,14 @@ Ele surgiu da necessidade de centralizar todas as informações em um único loc
 - Gerenciamento de FAQ, como edição e análise de quantidades clicks e feedbacks.
 - Gerenciamento Admin da aplicação.
 - Notificações sobre FAQs.
+
+## Tecnologias e Ferramentas Utilizadas
+
+- Backend: **Ktor (Kotlin)**
+- Banco de Dados:
+    - **MongoDB** - Para armazenamento de dados sensíveis.
+    - **Redis** - Para armazenamento de dados que precisam de acesso mais rápido.
+
+## Testes Utilizados
+
+- Testes unitários na maior parte das funções dos Serviços, e nas rotas.
